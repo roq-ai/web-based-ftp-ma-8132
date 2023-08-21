@@ -1,0 +1,2002 @@
+[
+  {
+    "member": [
+      {
+        "id": "7db23b78-be83-4459-bbd1-ec26fdd9b54b",
+        "joined_at": "2023-08-20T19:22:38.025Z",
+        "left_at": "2023-08-21T07:06:39.856Z",
+        "status": "Active",
+        "created_at": "2023-08-21T00:15:41.633Z",
+        "updated_at": "2023-08-20T13:36:07.983Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1e27232-6722-4fc9-8c7a-51d952ad06cc",
+        "joined_at": "2023-08-20T12:21:12.682Z",
+        "left_at": "2023-08-21T02:38:38.349Z",
+        "status": "Inactive",
+        "created_at": "2023-08-21T04:11:49.438Z",
+        "updated_at": "2023-08-20T20:37:34.450Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d863b9b-7a63-4f9f-90d6-12e62500d552",
+        "joined_at": "2023-08-20T20:33:33.912Z",
+        "left_at": "2023-08-20T23:35:11.918Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T17:14:45.249Z",
+        "updated_at": "2023-08-20T13:42:00.943Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a13f7395-c4fb-48df-a943-8369ad33255b",
+        "joined_at": "2023-08-20T21:33:43.550Z",
+        "left_at": "2023-08-21T02:30:38.088Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T09:22:29.401Z",
+        "updated_at": "2023-08-20T23:52:39.539Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54996800-8003-4e37-a132-9b4bd1618573",
+        "joined_at": "2023-08-21T08:26:44.847Z",
+        "left_at": "2023-08-21T04:31:22.876Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T17:49:30.283Z",
+        "updated_at": "2023-08-20T12:56:09.897Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "27e15c52-b903-446a-8929-3ecff3e487fc",
+        "status": "Accepted",
+        "created_at": "2023-08-21T04:20:23.921Z",
+        "updated_at": "2023-08-21T03:00:14.948Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "40aa675e-6263-4089-8585-e9c714427f57",
+        "status": "Declined",
+        "created_at": "2023-08-20T20:15:29.140Z",
+        "updated_at": "2023-08-21T07:28:46.312Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f2ba4f4-f291-438d-908d-431c39a3ffef",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:05:53.331Z",
+        "updated_at": "2023-08-21T04:34:32.732Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "8279e06a-b7c8-49e4-81a1-87ae5bd4a21e",
+        "status": "Expired",
+        "created_at": "2023-08-20T12:00:53.216Z",
+        "updated_at": "2023-08-21T06:24:39.290Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb14deff-7ac9-41d9-8b77-302426a79090",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T18:48:29.847Z",
+        "updated_at": "2023-08-21T02:51:50.944Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "da90d336-48cc-4f9c-8140-2cd60f6d0589",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 75967,
+        "created_at": "2023-08-20T18:41:34.662Z",
+        "updated_at": "2023-08-20T19:23:53.627Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d87c6c5-c5c0-457f-a660-168f328d207c",
+        "username": "jane.smith",
+        "password": "s3cur3p@ss",
+        "server": "ftpserver.net",
+        "port": 17406,
+        "created_at": "2023-08-21T07:45:50.397Z",
+        "updated_at": "2023-08-21T08:24:31.308Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "310d2372-5cda-4083-9339-80347d939197",
+        "username": "michael.brown",
+        "password": "pass123",
+        "server": "myftpsite.com",
+        "port": 95119,
+        "created_at": "2023-08-21T01:20:17.728Z",
+        "updated_at": "2023-08-20T15:56:28.842Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d2cfa72f-6c9e-49fc-a7b5-5d4f1f56f409",
+        "username": "sarah.jones",
+        "password": "ftpuser123",
+        "server": "secureftp.org",
+        "port": 78331,
+        "created_at": "2023-08-20T21:25:13.329Z",
+        "updated_at": "2023-08-21T06:19:49.959Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "31aa4695-39e5-4cd6-9975-1830f7f7033d",
+        "username": "robert.wilson",
+        "password": "strongpassword",
+        "server": "ftpserver123",
+        "port": 15133,
+        "created_at": "2023-08-21T10:41:09.258Z",
+        "updated_at": "2023-08-21T09:02:16.412Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1a3fb5cb-7f32-4a6a-879c-0b40b5239cfe",
+        "email": "Cale.Marks13@hotmail.com",
+        "firstName": "Raul",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/682.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ea13a91-b38e-449a-9173-7abadd99392f",
+        "email": "Joesph.Mills@yahoo.com",
+        "firstName": "Tyshawn",
+        "lastName": "Ratke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37422773",
+        "tenantId": null
+      },
+      {
+        "reference": "11f7cd06-c24b-4c02-8583-2757b7b5626a",
+        "email": "Ulises_Lehner76@yahoo.com",
+        "firstName": "Kallie",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5151f644-cf95-4d0e-9fb8-e49f865e6879",
+        "email": "Marilyne.Williamson41@yahoo.com",
+        "firstName": "Armani",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/486.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f3a908b-4dc6-4bac-9dd9-a09805d8e6d0",
+        "email": "Willow.Predovic81@yahoo.com",
+        "firstName": "Enoch",
+        "lastName": "Reichert-Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91420653",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "6960b0e4-06d7-42a8-b100-5ff6d93f44f8",
+        "joined_at": "2023-08-20T19:53:28.163Z",
+        "left_at": "2023-08-20T23:37:13.748Z",
+        "status": "Active",
+        "created_at": "2023-08-21T05:37:53.841Z",
+        "updated_at": "2023-08-20T12:02:03.113Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fe6be71-5588-4fbc-83d0-3f89117b2dce",
+        "joined_at": "2023-08-20T13:08:47.467Z",
+        "left_at": "2023-08-20T12:05:32.419Z",
+        "status": "Inactive",
+        "created_at": "2023-08-20T16:57:16.902Z",
+        "updated_at": "2023-08-20T13:22:37.794Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52e3d135-191f-4919-8cf9-ed766f709dd6",
+        "joined_at": "2023-08-20T13:51:30.191Z",
+        "left_at": "2023-08-20T15:34:56.669Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T13:50:04.488Z",
+        "updated_at": "2023-08-20T14:49:39.200Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6160f0da-9a01-44c6-b658-0b775dee4e3e",
+        "joined_at": "2023-08-20T13:54:20.626Z",
+        "left_at": "2023-08-20T15:41:59.615Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T03:03:25.754Z",
+        "updated_at": "2023-08-20T16:10:08.008Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51aa0445-9b83-4222-b491-1c1783a49b95",
+        "joined_at": "2023-08-20T11:17:44.611Z",
+        "left_at": "2023-08-21T05:22:06.519Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T23:00:26.705Z",
+        "updated_at": "2023-08-21T09:09:25.042Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "e968448f-665e-4c3b-a6ac-3aeb69f06447",
+        "status": "Sent",
+        "created_at": "2023-08-21T10:13:10.293Z",
+        "updated_at": "2023-08-20T22:17:52.201Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "31e6bba8-ffc2-4349-bbd4-124af4a3b6d0",
+        "status": "Accepted",
+        "created_at": "2023-08-21T03:15:57.428Z",
+        "updated_at": "2023-08-20T14:05:45.878Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "29128d52-b188-40f8-8f0c-d0d265ea4764",
+        "status": "Declined",
+        "created_at": "2023-08-21T10:28:23.810Z",
+        "updated_at": "2023-08-21T04:10:29.860Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7c07878-c1a9-41f8-99d7-d2ea6df559d6",
+        "status": "Expired",
+        "created_at": "2023-08-21T07:32:39.878Z",
+        "updated_at": "2023-08-20T16:01:43.010Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "21a419b2-241d-476f-b1cb-d0a71acaa9e5",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T10:17:18.257Z",
+        "updated_at": "2023-08-20T12:02:32.075Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "935668f7-8a7d-48bc-a28f-fba543d7bc86",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 69580,
+        "created_at": "2023-08-20T19:47:34.084Z",
+        "updated_at": "2023-08-20T18:53:40.855Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d53556a6-ab75-4181-95f2-35d9a4fa1a85",
+        "username": "jane.smith",
+        "password": "secure123",
+        "server": "ftpserver.net",
+        "port": 19100,
+        "created_at": "2023-08-21T09:29:30.997Z",
+        "updated_at": "2023-08-20T19:32:46.490Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "06e9d72e-0b7e-41f1-8cf9-00edee15c00e",
+        "username": "michael.brown",
+        "password": "ftpPass",
+        "server": "myftpsite.com",
+        "port": 26218,
+        "created_at": "2023-08-21T00:39:03.478Z",
+        "updated_at": "2023-08-20T11:10:03.878Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cd8aa1c0-dad0-49e2-ad27-14c9e2a817cb",
+        "username": "sarah.jones",
+        "password": "secretPass",
+        "server": "filetransfer.org",
+        "port": 21266,
+        "created_at": "2023-08-21T10:50:02.142Z",
+        "updated_at": "2023-08-20T17:43:05.991Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "28bc1552-d62a-4154-8654-d8e28e9a296b",
+        "username": "robert.wilson",
+        "password": "strongPassword",
+        "server": "ftpserver123.com",
+        "port": 5470,
+        "created_at": "2023-08-20T17:27:48.611Z",
+        "updated_at": "2023-08-21T03:35:52.756Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "15c7defe-f942-46cd-b988-dda6aa740d35",
+        "email": "Isabel78@yahoo.com",
+        "firstName": "Guiseppe",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58766361",
+        "tenantId": null
+      },
+      {
+        "reference": "4e9fc469-d9c1-4f1e-9258-1b15aab49854",
+        "email": "Tyrique.Greenholt@gmail.com",
+        "firstName": "Aletha",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/365.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b95333c5-2a34-4535-b057-e62457755429",
+        "email": "Leslie33@hotmail.com",
+        "firstName": "Jonathon",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58092156",
+        "tenantId": null
+      },
+      {
+        "reference": "5f3bfd2f-b2d0-46db-986b-e2282d174e08",
+        "email": "Korey_Heaney10@hotmail.com",
+        "firstName": "Josefina",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/459.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "248b3b7a-e44c-481f-8b9c-9e2f266602cb",
+        "email": "Gussie.Kerluke@gmail.com",
+        "firstName": "Maximilian",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/188.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "c013dd40-99f9-4629-86fc-30f9e919392c",
+        "joined_at": "2023-08-20T12:13:18.621Z",
+        "left_at": "2023-08-21T06:50:22.122Z",
+        "status": "Active",
+        "created_at": "2023-08-21T05:33:54.299Z",
+        "updated_at": "2023-08-21T03:52:54.630Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "731aec7b-b6c3-48ca-a627-d7d4db8585d6",
+        "joined_at": "2023-08-20T17:22:49.634Z",
+        "left_at": "2023-08-21T07:25:53.370Z",
+        "status": "Inactive",
+        "created_at": "2023-08-21T00:25:08.192Z",
+        "updated_at": "2023-08-20T23:10:07.828Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34cfee12-f521-495d-a43b-7f8dad4fa272",
+        "joined_at": "2023-08-20T23:42:08.033Z",
+        "left_at": "2023-08-20T20:09:27.888Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T19:15:13.923Z",
+        "updated_at": "2023-08-20T16:47:16.020Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f442e16a-d9b0-4168-8a2b-2cc671d87c42",
+        "joined_at": "2023-08-21T01:17:12.627Z",
+        "left_at": "2023-08-21T05:48:20.940Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T05:04:59.363Z",
+        "updated_at": "2023-08-21T08:33:39.065Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "169f4d81-9cab-4244-9256-ae3c93fde797",
+        "joined_at": "2023-08-21T05:58:32.883Z",
+        "left_at": "2023-08-20T22:09:58.084Z",
+        "status": "Blocked",
+        "created_at": "2023-08-21T05:06:17.106Z",
+        "updated_at": "2023-08-21T07:47:59.145Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "c609692f-9cf3-4b2b-a671-a86a604c8ecf",
+        "status": "Accepted",
+        "created_at": "2023-08-20T17:52:26.116Z",
+        "updated_at": "2023-08-21T07:28:48.617Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0366650-6a33-44f0-ad8e-aa9a15b9c144",
+        "status": "Declined",
+        "created_at": "2023-08-21T07:46:21.067Z",
+        "updated_at": "2023-08-21T00:32:04.147Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae33ca3c-bb40-41ac-9ce7-dcf039e2d3ba",
+        "status": "Pending",
+        "created_at": "2023-08-20T11:36:43.013Z",
+        "updated_at": "2023-08-20T22:25:46.777Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fe35ea6-46f2-43f4-9753-b8e205cc0782",
+        "status": "Expired",
+        "created_at": "2023-08-20T18:51:10.464Z",
+        "updated_at": "2023-08-20T19:47:16.943Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "79df8ed7-0b7b-4bdc-96d5-7191970f1a8a",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T20:48:29.240Z",
+        "updated_at": "2023-08-21T05:15:43.749Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "3dbda92d-3f8a-4986-b246-7e338a457eec",
+        "username": "john_doe",
+        "password": "P@ssw0rd1",
+        "server": "ftp.example.com",
+        "port": 61623,
+        "created_at": "2023-08-21T00:25:52.006Z",
+        "updated_at": "2023-08-21T10:54:42.054Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb06acee-45eb-4b0a-a7ae-f5c0acbaa5ed",
+        "username": "jane_smith",
+        "password": "SecurePassword123",
+        "server": "ftp.companyname.com",
+        "port": 74305,
+        "created_at": "2023-08-20T12:08:27.185Z",
+        "updated_at": "2023-08-21T06:17:46.194Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb6faf7e-42bf-40e1-aac6-466ad983fe9c",
+        "username": "michael_brown",
+        "password": "Secret@123",
+        "server": "ftpserver123.com",
+        "port": 56761,
+        "created_at": "2023-08-21T01:13:31.377Z",
+        "updated_at": "2023-08-21T04:01:58.453Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d9e866ba-4ec5-48a0-a0a5-c1b3f3138bb0",
+        "username": "sarah_jones",
+        "password": "StrongPassword!2",
+        "server": "ftp.domainname.com",
+        "port": 36022,
+        "created_at": "2023-08-21T01:30:30.623Z",
+        "updated_at": "2023-08-20T14:30:57.031Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "78c61abf-e41d-4f35-96bc-e41e2c8ce2d2",
+        "username": "david_wilson",
+        "password": "Password123!",
+        "server": "ftp.hostname.com",
+        "port": 51904,
+        "created_at": "2023-08-21T02:26:19.984Z",
+        "updated_at": "2023-08-20T21:15:19.917Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "75b6fd6e-1ed2-4a56-a579-104a5350f405",
+        "email": "Columbus9@gmail.com",
+        "firstName": "Edwardo",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43923647",
+        "tenantId": null
+      },
+      {
+        "reference": "191c7e93-30fb-4e58-8fa0-b85a4625c921",
+        "email": "Bryana61@hotmail.com",
+        "firstName": "Helmer",
+        "lastName": "Funk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/86.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "87083719-9eb4-41ad-a91d-48b29f5ef107",
+        "email": "Jonatan_Borer13@gmail.com",
+        "firstName": "Laury",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/839.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e289851f-3c4c-4bd0-a676-de20aedea13e",
+        "email": "Elody_Boyer@gmail.com",
+        "firstName": "Mylene",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a9a9382-50a2-47ab-aacd-8df987e6ec66",
+        "email": "Nichole_Conroy45@gmail.com",
+        "firstName": "Elza",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/181.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "f94e7a81-3986-4641-9fad-6873d3c96c2a",
+        "joined_at": "2023-08-21T00:41:39.634Z",
+        "left_at": "2023-08-20T17:29:42.736Z",
+        "status": "Active",
+        "created_at": "2023-08-21T03:21:05.796Z",
+        "updated_at": "2023-08-20T13:37:17.475Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b383bba-adae-40b8-95ba-b23101429f60",
+        "joined_at": "2023-08-21T05:34:25.250Z",
+        "left_at": "2023-08-21T07:14:27.495Z",
+        "status": "Inactive",
+        "created_at": "2023-08-21T10:28:57.410Z",
+        "updated_at": "2023-08-20T22:36:36.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4540484d-983c-4f86-9e4b-2bf67f686e27",
+        "joined_at": "2023-08-21T10:18:46.867Z",
+        "left_at": "2023-08-20T12:42:20.634Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T17:20:23.025Z",
+        "updated_at": "2023-08-20T16:55:29.434Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff6e6585-5394-40d2-84b0-946910034742",
+        "joined_at": "2023-08-20T13:37:24.555Z",
+        "left_at": "2023-08-20T22:42:39.083Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T01:54:20.719Z",
+        "updated_at": "2023-08-20T12:48:51.553Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffef92b4-3fa2-4b44-a8f6-ac3bb335f674",
+        "joined_at": "2023-08-20T23:27:37.358Z",
+        "left_at": "2023-08-20T11:20:17.132Z",
+        "status": "Blocked",
+        "created_at": "2023-08-21T00:48:29.268Z",
+        "updated_at": "2023-08-21T08:16:30.377Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "6178bf6f-d3ec-4460-aede-5a38ca111fce",
+        "status": "Accepted",
+        "created_at": "2023-08-21T03:12:49.798Z",
+        "updated_at": "2023-08-20T11:40:59.971Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "f301ead9-66f8-4aeb-8e26-cfee01308084",
+        "status": "Declined",
+        "created_at": "2023-08-21T06:07:59.693Z",
+        "updated_at": "2023-08-20T11:42:24.847Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc2ee37d-827e-4621-aa7a-84f0c492e2a0",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:59:40.307Z",
+        "updated_at": "2023-08-21T10:55:46.237Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ce7309f-55e7-482e-b99f-5fa444740efa",
+        "status": "Expired",
+        "created_at": "2023-08-21T07:09:02.393Z",
+        "updated_at": "2023-08-20T21:34:21.913Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d2f3d3e-cfdd-4023-9ed6-f107225ba7a7",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T04:39:10.226Z",
+        "updated_at": "2023-08-21T09:03:46.300Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "e9e26412-c758-4894-940b-12514cd10bab",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 47002,
+        "created_at": "2023-08-20T13:16:59.690Z",
+        "updated_at": "2023-08-20T11:27:22.190Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e4a6d72d-89db-4ee7-bb4c-55c8c6eed700",
+        "username": "jane.smith",
+        "password": "secure123",
+        "server": "ftp.company.com",
+        "port": 52402,
+        "created_at": "2023-08-20T23:51:19.127Z",
+        "updated_at": "2023-08-20T17:10:49.192Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51dfcfa4-80b2-499e-9ea2-0cd94b7767b9",
+        "username": "michael.brown",
+        "password": "ftp2022!",
+        "server": "ftpserver.net",
+        "port": 39204,
+        "created_at": "2023-08-20T20:35:27.810Z",
+        "updated_at": "2023-08-20T11:51:27.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c7eb42bb-4daa-4ff3-aacd-ef0d376c5373",
+        "username": "sarah.jones",
+        "password": "password123",
+        "server": "myftpserver.com",
+        "port": 5032,
+        "created_at": "2023-08-21T02:03:37.638Z",
+        "updated_at": "2023-08-20T15:46:55.757Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f2207b9-c67b-40fb-be83-8f5e25a53acf",
+        "username": "robert.wilson",
+        "password": "secret@ftp",
+        "server": "secureftp.org",
+        "port": 56244,
+        "created_at": "2023-08-20T20:32:04.467Z",
+        "updated_at": "2023-08-21T08:08:24.279Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b5023358-0be5-401b-97fb-22be1bc7352a",
+        "email": "Prudence.Russel@yahoo.com",
+        "firstName": "Leopold",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/830.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3299a13-0d5a-4ef5-bbff-1d18aff2b483",
+        "email": "Vivien.Luettgen@gmail.com",
+        "firstName": "Daryl",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b319d746-199d-4419-92bf-55f7940e4b3f",
+        "email": "Lelah_Langworth21@hotmail.com",
+        "firstName": "Lemuel",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3dbca44-5217-4ba6-ad0f-3e2a75c895cd",
+        "email": "Arlie17@yahoo.com",
+        "firstName": "Dee",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22304357",
+        "tenantId": null
+      },
+      {
+        "reference": "83d6a938-40f6-480d-9c80-33a8d0f85c6b",
+        "email": "Gina_Schimmel@yahoo.com",
+        "firstName": "Alden",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/743.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "3485611a-60e2-4a6c-9b50-5901796055b7",
+        "joined_at": "2023-08-20T12:36:23.161Z",
+        "left_at": "2023-08-21T05:56:57.009Z",
+        "status": "Active",
+        "created_at": "2023-08-20T18:45:12.063Z",
+        "updated_at": "2023-08-21T07:48:02.843Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea87c462-4f80-4230-a93b-9a3c8e66be15",
+        "joined_at": "2023-08-20T18:30:37.402Z",
+        "left_at": "2023-08-21T08:32:15.709Z",
+        "status": "Inactive",
+        "created_at": "2023-08-20T13:45:51.114Z",
+        "updated_at": "2023-08-21T08:02:32.347Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06cd8433-f59f-401a-a42d-69b9044a4d69",
+        "joined_at": "2023-08-20T13:25:41.218Z",
+        "left_at": "2023-08-21T03:24:15.051Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T19:50:45.768Z",
+        "updated_at": "2023-08-20T21:11:19.296Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc03f1a2-706b-4580-959f-e49b6a2f4bb9",
+        "joined_at": "2023-08-21T04:11:38.680Z",
+        "left_at": "2023-08-21T08:48:13.139Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T08:38:46.593Z",
+        "updated_at": "2023-08-21T07:34:18.339Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "125164ea-8382-440c-bd43-459b5629be2a",
+        "joined_at": "2023-08-20T18:43:02.237Z",
+        "left_at": "2023-08-20T16:23:24.546Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T14:41:29.903Z",
+        "updated_at": "2023-08-21T07:38:01.283Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "1f91d04e-a837-4665-a39f-7fabfa304f84",
+        "status": "Accepted",
+        "created_at": "2023-08-21T06:03:34.809Z",
+        "updated_at": "2023-08-20T20:24:53.407Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc75fd58-8693-4a28-aac3-17573c6f77c9",
+        "status": "Declined",
+        "created_at": "2023-08-21T03:18:00.921Z",
+        "updated_at": "2023-08-20T22:02:29.073Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "92150a52-bd0c-436a-8def-657bebf1a1fd",
+        "status": "Pending",
+        "created_at": "2023-08-21T01:30:52.838Z",
+        "updated_at": "2023-08-21T07:35:47.256Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "021c0c27-d67f-43b5-8c43-778cb8a95267",
+        "status": "Expired",
+        "created_at": "2023-08-20T12:03:39.635Z",
+        "updated_at": "2023-08-21T06:42:58.121Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "da708fce-be48-4b69-ae59-545bcf4abbb8",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T15:04:15.086Z",
+        "updated_at": "2023-08-20T23:58:25.351Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "f3e23b6e-abed-41e3-b89a-b686d4b8aec7",
+        "username": "john_doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 89507,
+        "created_at": "2023-08-20T17:14:03.293Z",
+        "updated_at": "2023-08-20T23:21:10.144Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "88675a7e-f79e-48de-b1b8-52b7f66ded6c",
+        "username": "jane_smith",
+        "password": "secure123",
+        "server": "ftp2.example.com",
+        "port": 16730,
+        "created_at": "2023-08-20T12:49:13.481Z",
+        "updated_at": "2023-08-20T22:04:19.871Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5b4bc51-fa63-4f6b-9079-450620f71b94",
+        "username": "michael_brown",
+        "password": "secret456",
+        "server": "ftp3.example.com",
+        "port": 16089,
+        "created_at": "2023-08-21T06:01:06.558Z",
+        "updated_at": "2023-08-21T08:27:05.491Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a985f954-21d9-473d-bae9-51f054e6f476",
+        "username": "sarah_wilson",
+        "password": "password789",
+        "server": "ftp4.example.com",
+        "port": 33275,
+        "created_at": "2023-08-21T06:38:13.669Z",
+        "updated_at": "2023-08-21T09:55:44.725Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3547f374-275e-420c-b553-109577a02991",
+        "username": "david_jones",
+        "password": "access321",
+        "server": "ftp5.example.com",
+        "port": 61593,
+        "created_at": "2023-08-20T12:20:32.255Z",
+        "updated_at": "2023-08-20T22:46:43.156Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5e2b029f-40e7-4f8a-8acc-f7659642654a",
+        "email": "Orrin.Towne45@yahoo.com",
+        "firstName": "Jacky",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3282518",
+        "tenantId": null
+      },
+      {
+        "reference": "d6ac3225-cbf7-4bec-b8b6-814b9636e629",
+        "email": "Enrico_Crist@hotmail.com",
+        "firstName": "Delaney",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88638925",
+        "tenantId": null
+      },
+      {
+        "reference": "f5db13de-491a-407d-925f-f98c157ef389",
+        "email": "Geovany13@hotmail.com",
+        "firstName": "Gage",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "608c3335-0d23-48de-ab18-5ec76c8c36f0",
+        "email": "Enid_Nikolaus@hotmail.com",
+        "firstName": "Audie",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e32c266-2b96-4614-9943-2e17a35dbb01",
+        "email": "Carmelo36@gmail.com",
+        "firstName": "Mervin",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54378665",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "962aa74a-5676-495a-b0ac-9aa3ceadea6a",
+        "joined_at": "2023-08-20T16:00:51.206Z",
+        "left_at": "2023-08-21T01:43:26.226Z",
+        "status": "Active",
+        "created_at": "2023-08-20T20:14:50.686Z",
+        "updated_at": "2023-08-20T11:42:55.509Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b5ec357-7981-4b3e-9335-0d932b5a95ad",
+        "joined_at": "2023-08-21T04:47:21.657Z",
+        "left_at": "2023-08-20T13:38:52.759Z",
+        "status": "Inactive",
+        "created_at": "2023-08-20T14:55:16.471Z",
+        "updated_at": "2023-08-20T11:50:06.219Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab1628f0-1b49-469c-b016-df844a185e97",
+        "joined_at": "2023-08-20T22:13:40.831Z",
+        "left_at": "2023-08-21T09:44:03.774Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T16:13:06.838Z",
+        "updated_at": "2023-08-20T17:57:43.839Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "003fe5ad-9d04-409c-8142-219106e42bc8",
+        "joined_at": "2023-08-20T18:51:55.032Z",
+        "left_at": "2023-08-21T10:06:58.762Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T08:39:23.586Z",
+        "updated_at": "2023-08-21T02:24:13.852Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1207a8-523b-41b0-9c0b-13aabea49ee0",
+        "joined_at": "2023-08-20T19:21:56.019Z",
+        "left_at": "2023-08-21T05:59:13.955Z",
+        "status": "Blocked",
+        "created_at": "2023-08-21T03:48:02.029Z",
+        "updated_at": "2023-08-21T10:46:53.064Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "f8890f0a-bdbf-4cd4-be78-aa4c3750d3a2",
+        "status": "Sent",
+        "created_at": "2023-08-20T11:39:45.569Z",
+        "updated_at": "2023-08-20T15:46:08.738Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcb6bbad-06ae-4a18-b812-e30e3db2dc13",
+        "status": "Accepted",
+        "created_at": "2023-08-21T08:25:46.018Z",
+        "updated_at": "2023-08-21T10:49:01.775Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "1615bbde-697b-4a68-8298-6b007c8a6096",
+        "status": "Declined",
+        "created_at": "2023-08-21T07:24:43.180Z",
+        "updated_at": "2023-08-20T15:17:14.469Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "60d739c7-22ff-442d-a982-84db0aeb5096",
+        "status": "Expired",
+        "created_at": "2023-08-20T19:31:07.981Z",
+        "updated_at": "2023-08-20T23:57:39.776Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb5aaea6-bfa7-4757-97a0-5f910975cbf1",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T11:17:18.847Z",
+        "updated_at": "2023-08-20T13:05:33.864Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "a0a97155-d4b2-4957-a1c6-783681b67e8d",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 19110,
+        "created_at": "2023-08-20T14:22:47.091Z",
+        "updated_at": "2023-08-20T15:09:31.164Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e25d83e6-6599-47ce-8979-325aa075f5fa",
+        "username": "jane.smith",
+        "password": "secure123",
+        "server": "ftp.company.com",
+        "port": 32150,
+        "created_at": "2023-08-20T14:37:42.283Z",
+        "updated_at": "2023-08-21T00:21:41.399Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7d7064a9-e10e-459f-b8cf-af383c8631a1",
+        "username": "michael.johnson",
+        "password": "ftpaccess",
+        "server": "ftp.server.net",
+        "port": 97817,
+        "created_at": "2023-08-20T14:44:29.900Z",
+        "updated_at": "2023-08-20T17:44:48.769Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "235e5e46-7ba3-4884-a7bc-1ebc6bdf26d0",
+        "username": "sarah.wilson",
+        "password": "password123",
+        "server": "ftp.test.org",
+        "port": 5804,
+        "created_at": "2023-08-21T04:18:40.775Z",
+        "updated_at": "2023-08-20T13:24:32.168Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f734cba5-ad5d-49dd-93d7-3ff8a9263eb5",
+        "username": "robert.brown",
+        "password": "secret!",
+        "server": "ftp.domain.com",
+        "port": 76798,
+        "created_at": "2023-08-20T13:04:43.066Z",
+        "updated_at": "2023-08-21T02:25:32.879Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f49d09d-4ca4-4c11-a21d-44d6e8be896b",
+        "email": "Reyna_Jaskolski@yahoo.com",
+        "firstName": "Kameron",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77f8ce28-de5a-4c86-b187-8f40fa65e070",
+        "email": "Winnifred.Balistreri84@yahoo.com",
+        "firstName": "Dedrick",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25769111",
+        "tenantId": null
+      },
+      {
+        "reference": "1d313701-1a9f-40e4-8adf-cfac4454934a",
+        "email": "Oleta40@yahoo.com",
+        "firstName": "Camille",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6915326",
+        "tenantId": null
+      },
+      {
+        "reference": "df7e0330-596c-4a25-92e4-5eb22d52adfc",
+        "email": "Alyce_Franey@yahoo.com",
+        "firstName": "Evie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23410325",
+        "tenantId": null
+      },
+      {
+        "reference": "5a40108f-e97b-4d83-8e40-bc917e84b557",
+        "email": "Kaleigh_Walsh@gmail.com",
+        "firstName": "Myles",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "a26f8fde-2a58-44e7-a9e1-b5a05513753d",
+        "joined_at": "2023-08-20T12:12:57.544Z",
+        "left_at": "2023-08-20T20:46:22.489Z",
+        "status": "Active",
+        "created_at": "2023-08-20T17:17:25.900Z",
+        "updated_at": "2023-08-20T23:37:21.164Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99423f9a-d974-45c7-81e4-64afc0e2cd46",
+        "joined_at": "2023-08-21T06:39:23.658Z",
+        "left_at": "2023-08-21T05:30:36.318Z",
+        "status": "Inactive",
+        "created_at": "2023-08-21T06:29:30.354Z",
+        "updated_at": "2023-08-21T06:38:00.580Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbdb6fc5-8566-4ae8-a67a-a9d28d654ea3",
+        "joined_at": "2023-08-20T18:12:26.960Z",
+        "left_at": "2023-08-21T09:35:07.191Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T23:04:39.066Z",
+        "updated_at": "2023-08-20T11:38:55.153Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af8a41d6-d9f5-4352-a127-5589411927da",
+        "joined_at": "2023-08-21T00:52:57.222Z",
+        "left_at": "2023-08-21T10:38:41.136Z",
+        "status": "Suspended",
+        "created_at": "2023-08-20T19:23:17.692Z",
+        "updated_at": "2023-08-21T07:00:36.705Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f76d7c7-7463-431b-bea0-6b1023b7dfba",
+        "joined_at": "2023-08-20T17:10:39.085Z",
+        "left_at": "2023-08-20T21:16:13.172Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T13:22:03.097Z",
+        "updated_at": "2023-08-20T20:15:41.470Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "8a8c6690-fef8-4ec8-9dcb-5dca16557748",
+        "status": "Sent",
+        "created_at": "2023-08-21T08:40:39.403Z",
+        "updated_at": "2023-08-21T05:24:49.540Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "71476e66-e605-45a9-ae0d-e6a898468237",
+        "status": "Accepted",
+        "created_at": "2023-08-21T02:52:50.300Z",
+        "updated_at": "2023-08-20T23:31:21.866Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ebc7c23-101c-4b3f-9ea7-c3424b07c7ee",
+        "status": "Declined",
+        "created_at": "2023-08-21T02:29:15.727Z",
+        "updated_at": "2023-08-21T06:28:25.165Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe43e820-a279-4ef5-a3bf-529146206227",
+        "status": "Expired",
+        "created_at": "2023-08-21T07:22:01.151Z",
+        "updated_at": "2023-08-20T22:45:35.758Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e0fd0e-08fa-407b-9712-13a87ba978e4",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T22:11:30.481Z",
+        "updated_at": "2023-08-21T03:08:54.669Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "69a15586-a5c2-4a86-9f91-41df7f6914f5",
+        "username": "john_doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 52608,
+        "created_at": "2023-08-20T21:44:09.833Z",
+        "updated_at": "2023-08-21T02:22:38.149Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "62000d2f-a706-4f3d-8474-2136af9c1fc7",
+        "username": "jane_smith",
+        "password": "secure123",
+        "server": "ftp.server.com",
+        "port": 60972,
+        "created_at": "2023-08-20T22:50:34.460Z",
+        "updated_at": "2023-08-20T19:41:37.107Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8dcb6573-4321-4af0-9190-aa7efd4ce69e",
+        "username": "michael_johnson",
+        "password": "password123",
+        "server": "ftp.domain.com",
+        "port": 38123,
+        "created_at": "2023-08-20T16:57:50.688Z",
+        "updated_at": "2023-08-21T00:35:11.225Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53a48b33-fdf3-4b86-81f6-380d290b1e9c",
+        "username": "sarah_wilson",
+        "password": "secret!@#",
+        "server": "ftp.hosting.com",
+        "port": 70641,
+        "created_at": "2023-08-21T05:47:08.301Z",
+        "updated_at": "2023-08-20T13:58:04.373Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8f245809-8752-4bc5-8316-01ddff532b12",
+        "username": "robert_brown",
+        "password": "ftp_password",
+        "server": "ftp.testserver.com",
+        "port": 60108,
+        "created_at": "2023-08-20T19:22:19.484Z",
+        "updated_at": "2023-08-21T02:06:44.085Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45956566-f649-4522-8d92-bbc4f5e1dc3f",
+        "email": "Bennie_Bednar@yahoo.com",
+        "firstName": "Eli",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1171.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8896e1a-d0aa-484e-87fb-26ee29d58495",
+        "email": "Concepcion_DAmore89@hotmail.com",
+        "firstName": "Dane",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/737.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9adf618-91c5-45a2-a90a-fdaa4e7bbbff",
+        "email": "Dante.Price@gmail.com",
+        "firstName": "Jackeline",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10085565",
+        "tenantId": null
+      },
+      {
+        "reference": "064f670c-1e7a-4eb4-9bb8-9b2a9d62a5ba",
+        "email": "Aurelio_Bayer@gmail.com",
+        "firstName": "Beaulah",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1eae9a68-f32b-419e-951c-10a1260a7066",
+        "email": "Antonina_Schmeler55@hotmail.com",
+        "firstName": "Cicero",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/691.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "409953bd-b40b-4f2f-b8e4-5ce99fdd3bd0",
+        "joined_at": "2023-08-20T14:38:05.291Z",
+        "left_at": "2023-08-20T23:13:12.471Z",
+        "status": "Active",
+        "created_at": "2023-08-21T05:17:04.544Z",
+        "updated_at": "2023-08-20T14:35:20.997Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41d25619-69bc-42f5-bbfc-215f9cf2438d",
+        "joined_at": "2023-08-21T02:38:12.409Z",
+        "left_at": "2023-08-21T06:42:20.047Z",
+        "status": "Inactive",
+        "created_at": "2023-08-20T16:25:00.433Z",
+        "updated_at": "2023-08-21T06:58:30.355Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab1bd9ee-f023-4c56-8fd7-dc7a1202996b",
+        "joined_at": "2023-08-21T10:25:31.561Z",
+        "left_at": "2023-08-21T05:11:48.337Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:08:08.974Z",
+        "updated_at": "2023-08-20T11:02:38.142Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f72db6eb-2756-4394-bbd5-ce74518836ce",
+        "joined_at": "2023-08-20T15:45:27.541Z",
+        "left_at": "2023-08-21T01:39:30.753Z",
+        "status": "Suspended",
+        "created_at": "2023-08-20T20:42:50.413Z",
+        "updated_at": "2023-08-21T10:25:34.419Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1d00c33-f6c2-4047-8d13-0f26cb036cc7",
+        "joined_at": "2023-08-20T12:38:15.714Z",
+        "left_at": "2023-08-20T11:20:25.189Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T14:52:07.951Z",
+        "updated_at": "2023-08-20T22:09:16.401Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "a09464d6-9a5b-4f21-8cf6-e41259255660",
+        "status": "Accepted",
+        "created_at": "2023-08-20T15:43:35.415Z",
+        "updated_at": "2023-08-21T00:29:12.231Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aeb4127-0d16-42d3-b83b-dc9426aa263b",
+        "status": "Declined",
+        "created_at": "2023-08-20T21:35:43.232Z",
+        "updated_at": "2023-08-21T01:15:00.186Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fb39418-fe38-40a7-a6cf-3d18279a7ed0",
+        "status": "Pending",
+        "created_at": "2023-08-21T05:52:40.991Z",
+        "updated_at": "2023-08-21T07:14:16.013Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a873d68-d8ea-4d5e-a1e6-754eb310b111",
+        "status": "Expired",
+        "created_at": "2023-08-20T18:01:36.325Z",
+        "updated_at": "2023-08-20T11:41:18.232Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebf576c4-7802-4989-966d-f826863c461a",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T15:01:08.658Z",
+        "updated_at": "2023-08-20T20:48:54.659Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "7e84a017-4840-4130-96ea-99ff1eb380cf",
+        "username": "john.doe",
+        "password": "pass123",
+        "server": "ftp.example.com",
+        "port": 62600,
+        "created_at": "2023-08-21T06:40:09.904Z",
+        "updated_at": "2023-08-21T03:28:42.423Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a02bcab4-cb96-4a98-b852-5ea34a5f8d32",
+        "username": "jane.smith",
+        "password": "securepwd",
+        "server": "ftp.company.com",
+        "port": 90455,
+        "created_at": "2023-08-20T19:38:19.984Z",
+        "updated_at": "2023-08-20T11:31:41.496Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "69191ce8-2798-40e8-b9ae-b730daebc3e3",
+        "username": "michael.brown",
+        "password": "ftp@123",
+        "server": "ftpserver.net",
+        "port": 77066,
+        "created_at": "2023-08-21T10:00:11.597Z",
+        "updated_at": "2023-08-20T22:41:31.993Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a6c7cdf9-7713-4aea-82ea-e3c8898bfe16",
+        "username": "sarah.jones",
+        "password": "password1",
+        "server": "myftpserver.com",
+        "port": 38198,
+        "created_at": "2023-08-21T09:22:39.985Z",
+        "updated_at": "2023-08-21T06:50:22.776Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "464183e1-a588-4a09-a96a-8e38f077d73a",
+        "username": "robert.wilson",
+        "password": "secret123",
+        "server": "ftp.acme.co",
+        "port": 23522,
+        "created_at": "2023-08-21T10:00:08.617Z",
+        "updated_at": "2023-08-20T12:27:25.190Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d82f0cc-45a1-4f01-a47b-4bfa9571c483",
+        "email": "Shanel.Howe39@yahoo.com",
+        "firstName": "Aniyah",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51893749",
+        "tenantId": null
+      },
+      {
+        "reference": "b2e01bf2-f124-48e1-820e-a8b23be7b320",
+        "email": "Meaghan.Kshlerin87@yahoo.com",
+        "firstName": "Norberto",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13211537",
+        "tenantId": null
+      },
+      {
+        "reference": "0edba38a-c535-445c-905b-3530b5632043",
+        "email": "Felipa.Crist@gmail.com",
+        "firstName": "Beth",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80609297",
+        "tenantId": null
+      },
+      {
+        "reference": "05897869-7678-4472-8d8d-f8c98a55388c",
+        "email": "Tiffany4@hotmail.com",
+        "firstName": "Mikayla",
+        "lastName": "Swift-Kuhn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53259225",
+        "tenantId": null
+      },
+      {
+        "reference": "ae0fefb2-c85d-4475-a22c-ce9bbf756b91",
+        "email": "Melyssa.Nienow70@gmail.com",
+        "firstName": "Jerald",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61498111",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "6e395a65-3d3c-4eff-a576-edd82fdd96d0",
+        "joined_at": "2023-08-21T05:26:32.173Z",
+        "left_at": "2023-08-21T05:42:39.961Z",
+        "status": "Active",
+        "created_at": "2023-08-20T20:22:46.743Z",
+        "updated_at": "2023-08-21T10:54:17.380Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "998e168d-63f2-4f1f-aedb-9123bb22dedb",
+        "joined_at": "2023-08-21T09:43:40.565Z",
+        "left_at": "2023-08-21T10:10:32.789Z",
+        "status": "Inactive",
+        "created_at": "2023-08-21T02:33:10.506Z",
+        "updated_at": "2023-08-21T07:30:29.080Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6516f0eb-9c23-42ea-a56b-4b2abd8120e8",
+        "joined_at": "2023-08-20T20:11:57.734Z",
+        "left_at": "2023-08-20T20:26:01.528Z",
+        "status": "Pending",
+        "created_at": "2023-08-21T08:00:57.199Z",
+        "updated_at": "2023-08-20T17:55:46.461Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33f82aae-4f5b-4df4-bcb5-bce7ef0fd3eb",
+        "joined_at": "2023-08-20T14:12:11.698Z",
+        "left_at": "2023-08-21T03:57:19.254Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T05:34:37.097Z",
+        "updated_at": "2023-08-21T08:01:49.509Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "555956ec-1111-4d52-991f-3dee9c08b6dc",
+        "joined_at": "2023-08-20T14:40:54.554Z",
+        "left_at": "2023-08-20T15:53:37.804Z",
+        "status": "Blocked",
+        "created_at": "2023-08-20T11:22:30.920Z",
+        "updated_at": "2023-08-20T23:27:37.968Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "c12676d7-fa00-48a0-89ec-0e3265a47449",
+        "status": "Accepted",
+        "created_at": "2023-08-20T20:53:47.497Z",
+        "updated_at": "2023-08-20T15:02:28.474Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6836559-56cc-415e-a336-0c6bd5d0f9ca",
+        "status": "Declined",
+        "created_at": "2023-08-20T20:17:45.605Z",
+        "updated_at": "2023-08-21T06:30:54.479Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0faae37-8bd8-4d8f-8b98-38f3a6c23450",
+        "status": "Pending",
+        "created_at": "2023-08-20T18:39:10.313Z",
+        "updated_at": "2023-08-20T13:17:41.943Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a3e9c17-beca-4b9a-b672-ef5cae257668",
+        "status": "Expired",
+        "created_at": "2023-08-20T14:54:50.748Z",
+        "updated_at": "2023-08-20T16:57:26.998Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "382a2c36-c57d-4d61-9071-0e5b27f57d31",
+        "status": "Cancelled",
+        "created_at": "2023-08-20T13:55:07.941Z",
+        "updated_at": "2023-08-20T20:02:02.669Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "bf21a616-371c-43e2-96f5-a395ff710351",
+        "username": "john.doe",
+        "password": "p@ssw0rd",
+        "server": "ftp.example.com",
+        "port": 64152,
+        "created_at": "2023-08-21T03:36:52.803Z",
+        "updated_at": "2023-08-20T14:58:37.134Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1edf77e3-1aa0-4a55-aa29-66c7f6fd3b04",
+        "username": "jane.smith",
+        "password": "secure123",
+        "server": "ftp.server.com",
+        "port": 31911,
+        "created_at": "2023-08-20T12:50:31.414Z",
+        "updated_at": "2023-08-21T02:25:59.065Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b228b30f-7f55-45cb-af09-2f9b4aaf64e5",
+        "username": "michael.brown",
+        "password": "ftpaccess",
+        "server": "myftpserver.com",
+        "port": 97110,
+        "created_at": "2023-08-21T08:08:57.860Z",
+        "updated_at": "2023-08-21T07:20:57.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d6c89195-8e6d-4717-9a0c-058992bd7e69",
+        "username": "sarah.jones",
+        "password": "password123",
+        "server": "ftp.acme.co",
+        "port": 33522,
+        "created_at": "2023-08-21T06:52:24.208Z",
+        "updated_at": "2023-08-20T22:07:34.239Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "08b76b9d-1581-48fd-b35a-89fcc3ee6f68",
+        "username": "david.wilson",
+        "password": "s3cur3ftp",
+        "server": "ftp.xyzsolutions.net",
+        "port": 94161,
+        "created_at": "2023-08-20T22:33:31.281Z",
+        "updated_at": "2023-08-21T04:59:49.956Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2aa79c0d-653e-4025-b926-51eb3afab1c3",
+        "email": "Elmira_Quitzon21@hotmail.com",
+        "firstName": "Georgiana",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2145436",
+        "tenantId": null
+      },
+      {
+        "reference": "38e8ccfb-0644-459b-91d9-731a6002a28d",
+        "email": "Amya_Hoeger@gmail.com",
+        "firstName": "Brain",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48618847",
+        "tenantId": null
+      },
+      {
+        "reference": "4f97a887-67d9-40a7-86fc-b18fee655a96",
+        "email": "Kallie.Veum46@gmail.com",
+        "firstName": "Pauline",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88976618",
+        "tenantId": null
+      },
+      {
+        "reference": "d793f7d0-7fd4-46f8-8a88-06aac8723fd7",
+        "email": "Reid_Weissnat@gmail.com",
+        "firstName": "Sunny",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22848764",
+        "tenantId": null
+      },
+      {
+        "reference": "778e9def-ab0d-4906-a2ad-e5c4eaad3bd4",
+        "email": "Turner57@yahoo.com",
+        "firstName": "Whitney",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1219.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "member": [
+      {
+        "id": "2e3f3e5d-ac44-452c-b747-de61d53ac1c7",
+        "joined_at": "2023-08-20T22:54:42.604Z",
+        "left_at": "2023-08-21T00:22:59.148Z",
+        "status": "Active",
+        "created_at": "2023-08-21T10:53:40.949Z",
+        "updated_at": "2023-08-20T20:24:00.618Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2cd6116-37e7-484d-9c76-7a3f4fbecfcc",
+        "joined_at": "2023-08-21T10:48:42.615Z",
+        "left_at": "2023-08-21T01:27:20.799Z",
+        "status": "Inactive",
+        "created_at": "2023-08-20T11:48:18.311Z",
+        "updated_at": "2023-08-20T23:13:13.830Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ed72871-36a7-4118-bb69-05d12af3335f",
+        "joined_at": "2023-08-21T10:25:43.634Z",
+        "left_at": "2023-08-21T08:52:24.678Z",
+        "status": "Pending",
+        "created_at": "2023-08-20T20:50:43.151Z",
+        "updated_at": "2023-08-21T06:39:56.005Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d88b5ed1-69d8-49c0-be01-a57c752371e1",
+        "joined_at": "2023-08-21T00:03:25.597Z",
+        "left_at": "2023-08-20T22:53:35.673Z",
+        "status": "Suspended",
+        "created_at": "2023-08-21T06:26:14.377Z",
+        "updated_at": "2023-08-20T21:06:35.061Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "872137cf-00fb-4d81-ab26-a69e55745a3f",
+        "joined_at": "2023-08-21T02:59:45.742Z",
+        "left_at": "2023-08-21T07:33:39.125Z",
+        "status": "Blocked",
+        "created_at": "2023-08-21T04:45:21.650Z",
+        "updated_at": "2023-08-20T11:53:24.913Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "7fa4ea3a-2a52-466a-beaa-5855633439d9",
+        "status": "Accepted",
+        "created_at": "2023-08-21T08:18:55.840Z",
+        "updated_at": "2023-08-21T02:25:47.331Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "681bae6b-c0b2-4b66-8e42-37f43245939e",
+        "status": "Declined",
+        "created_at": "2023-08-21T01:58:45.120Z",
+        "updated_at": "2023-08-20T19:24:27.403Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "83addecb-1ade-4047-b5b0-75d8d09d130c",
+        "status": "Pending",
+        "created_at": "2023-08-21T00:14:45.227Z",
+        "updated_at": "2023-08-20T17:43:59.237Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3effab1-60ca-4f7d-a52e-bd763ea967ca",
+        "status": "Expired",
+        "created_at": "2023-08-21T07:34:38.489Z",
+        "updated_at": "2023-08-21T04:21:40.051Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fcd9d14-c87d-4a2b-9c9e-ce53abc77814",
+        "status": "Cancelled",
+        "created_at": "2023-08-21T02:36:14.775Z",
+        "updated_at": "2023-08-20T18:49:02.908Z",
+        "company_id": "main_entity_pk",
+        "invited_user_id": "user_entity_pk",
+        "inviter_user_id": "user_entity_pk"
+      }
+    ],
+    "ftp_account": [
+      {
+        "id": "dc2997b3-f08f-4a05-922a-93a21b544983",
+        "username": "john.doe",
+        "password": "!@#Abc123",
+        "server": "ftp.example.com",
+        "port": 68436,
+        "created_at": "2023-08-20T19:26:52.246Z",
+        "updated_at": "2023-08-20T14:10:46.583Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ce78a258-7901-4f35-b2f8-7117db93b186",
+        "username": "jane.smith",
+        "password": "P@ssw0rd",
+        "server": "ftp.company.com",
+        "port": 83131,
+        "created_at": "2023-08-21T06:12:50.095Z",
+        "updated_at": "2023-08-21T01:55:43.509Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d66eb862-e98c-4236-8b9a-c20ca02453a8",
+        "username": "michael.brown",
+        "password": "SecurePass123",
+        "server": "ftp.server.com",
+        "port": 66067,
+        "created_at": "2023-08-21T07:24:05.647Z",
+        "updated_at": "2023-08-21T07:32:07.283Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96c1c7e1-ea2e-4a1e-ad9d-582f2aeef702",
+        "username": "sarah.wilson",
+        "password": "StrongPassword",
+        "server": "ftp.domain.com",
+        "port": 7309,
+        "created_at": "2023-08-21T06:49:47.427Z",
+        "updated_at": "2023-08-20T13:03:31.624Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6edc92a8-f894-4bdc-bb5b-74b1894d64c7",
+        "username": "robert.johnson",
+        "password": "Password123!",
+        "server": "ftp.test.com",
+        "port": 81622,
+        "created_at": "2023-08-20T17:27:24.360Z",
+        "updated_at": "2023-08-21T01:34:36.254Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6e17dd27-8ebe-4b6d-8f38-95c9eb31a009",
+        "email": "Selmer.Schmeler@gmail.com",
+        "firstName": "Orion",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64937791",
+        "tenantId": null
+      },
+      {
+        "reference": "d4da16e1-6856-4ccf-bff9-449af5562a57",
+        "email": "Alexie_Stark14@yahoo.com",
+        "firstName": "Fredrick",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1186.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b3ae08da-165b-4d02-980f-e9e7dfb54708",
+        "email": "Camden.Abshire@gmail.com",
+        "firstName": "Gerald",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78c96f87-0c75-469b-a864-aedebcd1f1f2",
+        "email": "Oliver.Borer@yahoo.com",
+        "firstName": "Bethel",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1461607",
+        "tenantId": null
+      },
+      {
+        "reference": "55fc0d3e-75ce-4666-b929-8dca5d1073c2",
+        "email": "Noelia.Graham-Powlowski@gmail.com",
+        "firstName": "Golden",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20786382",
+        "tenantId": null
+      }
+    ]
+  }
+]
